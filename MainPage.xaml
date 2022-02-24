@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout BackgroundColor="White">
+        <Label TextColor="Black" FontSize="25" Text="Years :" x:Name="lable" Margin="20"/>        <Button Text="Click to print years from 1990 to 2033" Clicked="ButtonClicked"  Padding="20" Margin="25" VerticalOptions="Center"                BackgroundColor="Gray" TextColor="Black" FontSize="Subtitle" HorizontalOptions="Center"/>
+
+    </StackLayout>
+
+</ContentPage>
